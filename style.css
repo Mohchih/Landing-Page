@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+
+}
+.logo{
+    height:auto;
+    width:50px;
+}
+.konoha{
+    height:auto;
+    width: 350px;
+}
+footer{
+    margin-top: auto;
+    text-align: center;
+}
