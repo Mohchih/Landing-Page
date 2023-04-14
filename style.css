@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    width:100%;
     margin:0;
 }
 header{
@@ -26,23 +27,23 @@ a:hover{
     color:#edb870;
 }
 .logo{
+    display: flex;
+    align-items: center;
     height:auto;
-    width:50px;
+    width:20%;
 }
 .introcontainer{
     display: flex;
-    justify-content: space-around;
     background-color: #edb870;
     padding: 50px;
-    gap:40px;
 }
 .intro>p{
     font-size: 25px;
-    width: 500px;
+    width: 100%;
 }
 .konoha{
     height:auto;
-    width: 500px;
+    width: 90%;
     border-radius: 9px;
 }
 button{
