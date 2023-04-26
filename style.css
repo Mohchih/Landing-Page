@@ -132,3 +132,47 @@ footer{
     padding:7px;
     color:white;
 }
+
+@media only screen and (max-width:700px){
+    header{
+        width: 100%;
+        height: 40px;
+        align-items: center;
+        justify-content: space-between;
+        padding:0;
+    }
+    .logo{
+        width:30px;
+    }
+    li a {
+        font-size: 12px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .introcontainer{
+        flex-direction: column;
+        padding:5%;
+    }
+    .intro{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro p {
+        text-align: center;
+    }
+    .intro button {
+        margin: 0 0 5px
+    }
+    .profile{
+        align-items: center;
+    }
+    .quote{
+        padding:0;
+    }
+    .quote p {
+        width:80%;
+    }
+}
